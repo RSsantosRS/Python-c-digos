@@ -1,0 +1,8 @@
+nome=input("Digte o nome do aluno: ")
+av1=float(input("Digite a nota da AV1 do aluno: "))
+av2=float(input("Digite a nota da AV2 do aluno: "))
+med=(av1+av2)/2
+if (med>=6):
+    print(f"{nome} está aprovado com média de {med:.2f}")
+else:
+    print(f"{nome} está reprovado com média de {med:.2f}")
