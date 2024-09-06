@@ -1,0 +1,13 @@
+nome=input("Digite o nome do usuário: ")
+cpf=int(input("Digite o cpf do usuário (somente numeros): "))
+renda=float(input("Digite a renda do usuário: "))
+if renda>4664.68:
+            print(f"a alíquota para uma renda de R$ {renda} é de 27.5%") 
+elif renda>3751.06:
+            print(f"a alíquota para uma renda de R$ {renda} é de 22.5%")
+elif renda>2826.66:
+            print(f"a alíquota para uma renda de R$ {renda} é de 15%")
+elif renda>1903.99:
+            print(f"a alíquota para uma renda de R$ {renda} é de 7.5%")
+else:
+            print(f"a alíquota para uma renda de R$ {renda} é isenta")
