@@ -1,0 +1,7 @@
+veloc= int(input("Digite a velocidade do veículo em KM/H: "))
+if veloc >= 80:
+    acima = veloc - 80
+    multa = 100 +(15*acima)
+    print(f"Velocidade acima!!, multa de R$: {multa}")
+else:
+    print(f"Veloidade de {veloc}KM/H, é permitida na via") 
