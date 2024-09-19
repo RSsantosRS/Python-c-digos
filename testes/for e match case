@@ -1,0 +1,65 @@
+
+        print("Server se recusa a enviar retorno. ")
+    case 404:
+        print("server não encontrado"texto= " Rafael"
+for char in texto:
+    print(char)
+
+'''
+tag comentar varias linhas '''
+#tag comentario em uma linha so 
+////////////////////////////////////////////////////////// 02
+
+
+for letra in "rafael":
+    if letra == "e":
+        break
+    print("letra ",letra)
+
+
+
+////////////////////////////////////////////////////////03
+
+'''
+executa o codigo ate a letra em comparação e depois da o break'''
+for letra in "rafael":
+    print("letra ",letra)
+    if letra == "e":
+        break
+
+///////////////////////////////////////////////////////////04
+
+for multiplicador in range(1, 11):
+    numero=1
+    while numero<=10:
+        resultado = multiplicador * numero
+        print(f"{multiplicador} x {numero} = {resultado}")
+        numero += 1
+
+//////////////////////////////////////////////////////////05
+
+
+comando = input("Digite a mensagem: ")
+match comando:
+    case "oi":
+        print("ola meu amigo. ")
+    case "tchau":
+        print("até logo! ")
+    case _:
+        print("Dado não encontrado")
+
+////////////////////////////////////////////////////////////06
+
+response_code = 222
+
+match response_code:
+    case 400:
+        print("Server sem resposta")
+    case 401 | 403:)
+    case _:
+        print("Valor invalido")
+
+////////////////////////////////////////////////////////////07
+
+
+
