@@ -1,0 +1,31 @@
+while True:
+    nome = input("Digite seu nome para começar: ")
+    tipo = input("Digite seu tipo de consumo: r- residencial, c- comercial, i- industrial, s- sair: ")
+    
+    if tipo == "s":
+        break    
+    consumo = float(input("Digite seu consumo em kWh: "))    
+    match tipo:
+        case "r":
+            if consumo > 500:
+                extra = (consumo - 500) * 0.65
+                taxa = extra + (500 * 0.40)
+            else:
+                taxa = consumo * 0.40
+            print(f"Sua taxa de luz para residencial é {taxa:.2f}")
+        case "c":
+            if consumo > 1000:
+                extra = (consumo - 1000) * 0.60
+                taxa = extra + (1000 * 0.55)
+            else:
+                taxa = consumo * 0.55
+            print(f"Sua taxa de luz para comercial é {taxa:.2f}")
+        case "i":
+            if consumo > 5000:
+                extra = (consumo - 5000) * 0.60
+                taxa = extra + (5000 * 0.55)
+            else:
+                taxa = consumo * 0.55
+            print(f"Sua taxa de luz para industrial é {taxa:.2f}")
+        case _:
+            print("Tipo de consumo inválido.")
