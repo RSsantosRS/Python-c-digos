@@ -5,6 +5,13 @@ def exemplo01_lista(idade: int, nota: float, nome: str)->list:
     lista =[nome_fun, idade, nota_func]
     return lista
 
+def exemplo_numpy()-> str:
+    import numpy
+
+    x = numpy.sin(1)
+    print(x)
+
 if __name__ == "__main__":
     listinha = exemplo01_lista(40,9.8,"rafael")
     print(listinha)
+    exemplo_numpy()
