@@ -1,0 +1,10 @@
+def exemplo01_lista(idade: int, nota: float, nome: str)->list:
+    idade += 2
+    nome_fun = nome
+    nota_func = nota
+    lista =[nome_fun, idade, nota_func]
+    return lista
+
+if __name__ == "__main__":
+    listinha = exemplo01_lista(40,9.8,"rafael")
+    print(listinha)
