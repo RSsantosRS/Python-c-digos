@@ -1,0 +1,9 @@
+import random
+while True:
+    print('''1 - rola o dado \n 2- sair''')
+    usuario = int (input("O que você deseja: "))
+    if usuario == 1:
+        numero = random.randint (0,1)
+        print(numero)
+    else:
+        break
