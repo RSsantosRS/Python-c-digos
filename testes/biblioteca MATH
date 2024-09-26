@@ -1,0 +1,13 @@
+import math
+
+print(math.pi)
+print(math.e)
+
+ceil = math.ceil(math.pi)
+floor = math.floor(math.pi)
+sqrt = math.sqrt(2)
+fat = math.factorial(4)
+fabs = math.fabs(-45.2)
+
+print(ceil)
+print(floor)
