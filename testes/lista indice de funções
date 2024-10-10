@@ -1,0 +1,29 @@
+lista = ["laranja","azul","verde","preto"]
+
+#exemplos padrao
+
+lista.pop()#apaga o ultimo valor da lista
+lista.clear()#limpa a lista
+lista.append(c)#adc c no fim da lista
+lista.extend(i) #prolonga a lista ,adc todos elementos de i
+lista.insert(i,c) #insere c na posição i
+lista.remove(c) #remove o elelemto c
+lista.index(c) #retorna o indice cujo valor é c
+lista.count(c) #numero de vezes que c aparece na lista
+lista.sort() #ordena os itens da lista
+lista.reverse() #inverte a ordem dos elelemtos
+lista.copy() #faz uma copia da lista e a retorna
+print(lista)
+
+mylista1= ["triangulo","quadrado","retangulo","circulo"]
+if "triangulo" in l: #verifica se possui o valor dentro da lista 
+    print("sim,'triangulo' esta presente na lista")
+    
+    
+    
+mylista2 = list(("carro","moto","barco","jetsky"))
+print(mylista)
+
+l=list(range(100,1100,50)) #cria um contador em seguência (de 50 em 50) de 100 até 1100
+print(l)
+    
