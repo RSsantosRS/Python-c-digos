@@ -7,10 +7,25 @@ def obter_media_aluno(medias):
 
 medias = {
     "Rafael": 6,
-    "Mariana": 8,
+    "Mariana": 3,
     "Caroline": 9,
-    "Caio": 10,
+    "Caio": 5,
     "Vitor": 9
 }
 
-obter_media_aluno(medias)
+medias["sara"] =8 
+print(medias.keys())
+print(medias.values())
+
+for nome, nota in medias.items():#descompacta os itens e mostra um por um
+    if nota < 7:
+        print(f"{nome} reprovado!!")
+
+#mostra que da pra pesquisar pelo index ,nesse caso, nome do jogador
+artulharia_libestadores24 = {   "junior santos": ["botafogo",10,9],
+                                "miguel borja": ["river plate",9,6],
+                                "paulinho": ["atletico mineiro",9,6],
+                                "maximiliano" :["penarol",10,6],
+                                "pedro": ["flamengo",6,5]
+                            }
+print(artulharia_libestadores24["pedro"])
