@@ -1,0 +1,16 @@
+def obter_media_aluno(medias):
+    nome = input("Informe o nome do aluno: ")
+    if nome in medias:
+        print(f"Média = {medias[nome]}")
+    else:
+        print("Aluno não encontrado.")
+
+medias = {
+    "Rafael": 6,
+    "Mariana": 8,
+    "Caroline": 9,
+    "Caio": 10,
+    "Vitor": 9
+}
+
+obter_media_aluno(medias)
