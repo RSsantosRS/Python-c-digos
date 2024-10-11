@@ -1,0 +1,8 @@
+carros = {  "marca": "ford",
+            "modelo": "mustang",
+            "ano": 1966}
+            
+novoAno = input("Digite o nome do novo ano: ")
+
+carros["ano"] = novoAno
+print(carros)
