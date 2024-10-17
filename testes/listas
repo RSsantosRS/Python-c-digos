@@ -1,0 +1,13 @@
+def verifica(lista, valor):
+    for indice, item in enumerate(lista):
+        if item == valor:
+            return indice
+    return None
+def entrada() -> list:
+    return [1,2,3,4,5]
+
+
+if __name__ == "__main__":
+    print(verifica(entrada(), 2))
+    print(verifica(entrada(), 7))
+
