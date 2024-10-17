@@ -1,0 +1,17 @@
+times = {"flamengo", "vasco", "fluminense", "botafogo"}
+times.add("olaria")
+print(times)
+times.pop()
+times.discard("olaria")
+print(times)
+
+times2 = {"flamengo", "vasco", "fluminense", "ponte-preta"}
+
+
+print (times | times2)
+print(times.union(times2))
+print(times & times2)
+print(times.intersection(times2))
+
+times |= times2
+print(times)
