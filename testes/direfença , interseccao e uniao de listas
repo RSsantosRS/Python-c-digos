@@ -1,0 +1,12 @@
+set_vazio = set()
+conjunto = {1, 2, 3, "quatro", "cinco"}
+conjunto.add(6)
+conjunto.remove(2)
+
+outro_conjunto = {3,4,5,6,7}
+uniao = conjunto.union(outro_conjunto)
+print(f"uniao: {uniao}")
+interseccao = conjunto.intersection(outro_conjunto)
+print(f"interseccao: {interseccao}")
+diferenca = conjunto.difference(outro_conjunto)
+print(f"diferença: {diferenca}")
