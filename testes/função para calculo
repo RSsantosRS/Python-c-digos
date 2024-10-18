@@ -1,0 +1,12 @@
+def calculo (esquerda:float, direita:float, operador: str = "*") ->float:
+    match operador:
+        case "+":
+            return esquerda + direita
+        case "-":
+            return esquerda - direita
+        case "*":
+            return esquerda * direita
+        case "/":
+            return esquerda / direita
+print(calculo(2,4, "*"))
+print(calculo(8,4,"/"))
