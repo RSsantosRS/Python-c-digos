@@ -1,0 +1,10 @@
+from datetime import date
+from pessoa import Pessoa
+from marca import Marca
+from veiculo import Veiculo
+
+pessoa1 = Pessoa(cpf= 12398769898, nome ="silva", nascimento= date(1987,7,22),oculos = True)
+
+marca1 = Marca(id= 1, nome= "FIAT", sigla= "FIA")
+
+veiculo1 = Veiculo(placa="ESI7A93",cor= "cinza", proprietario= pessoa1, marca= marca1)
